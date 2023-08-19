@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="deliverypage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Whisk & Brew Cafe</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="logo .png" alt="Logo">
+            <span class="logo-text">Whisk & Brew Cafe</span>
+        </div>
+        <div class="navbar-links">
+            <a href="index.html" class="nav-link nav-link-hover">Home</a>
+            <a href="menu.html" class="nav-link nav-link-hover">Menu</a>
+            <a href="deliverypage.html" class="nav-link nav-link-hover">Delivery</a>
+            <a href="contact.html" class="nav-link nav-link-hover">Contact</a>
+        </div>
+       
+        
+       
+        <div class="cart-icon" onclick="toggleCart()">
+            <i class="fas fa-shopping-cart"></i>
+            <span id="cart-count">0</span>
+        </div>
+        
+        <div class="hamburger-menu" id="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    
+        <div class="nav-links" id="nav-links">
+                <a href="home.html" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Menu</a>
+                <a href="deliverypage.html" class="nav-link">Delivery</a>
+                <a href="#" class="nav-link">Contact</a>
+               </div>
+            
+        </div>
+       </nav>
+            
+       <div class="menu">
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="espresso_1.jpg" alt="Espresso">
+                <p>Espresso<br>£3.50</p>
+                <button class="add-to-cart-button" onclick="addToCart('Espresso')">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="americano_1.jpg" alt="Americano">
+                <p>Americano<br>£3.00</p>
+                <button class="add-to-cart-button" onclick="addToCart('Americano')">Add to Cart</button>
+            </div>
+            <div class="menu-item">
+                <img src="latte_1.jpg" alt="Latte">
+                <p>Latte<br>£4.00</p>
+                <button class="add-to-cart-button" onclick="addToCart('Latte')">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+       
+       <div class="menu">
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="velvet.jpg" alt="Red Velvet Cake">
+                        <p>Red Velvet Cake<br>£3.50</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Red Velvet Cake')">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="crumble.jpg" alt="Crumble Cake">
+                        <p>Crumble Cake<br>£3.00</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Crumble Cake')">Add to Cart</button>
+                    </div>
+                    <div class="menu-item">
+                        <img src="ice cream.jpg" alt="Espresso Ice Cream">
+                        <p>Espresso Ice Cream<br>£4.00</p>
+                        <button class="add-to-cart-button" onclick="addToCart('Espresso Ice Creame')">Add to Cart</button>
+                    </div>
+                </div>
+           
+
+
+
+            
+    <script src="deliverypage.js"></script>
+    
+
+    <div class="footer">
+        <h5>&copy; Whisk & Brew Cafe 2023</h5>
+        </div>
+        </body>
+
+</body>
+</html>
